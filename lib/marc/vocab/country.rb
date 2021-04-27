@@ -5,7 +5,7 @@ module Marc
     # Map 3 letter MARC Country/Location Code to User Friendly Name
     # includes discontinued codes, because they're probably in our data
     # from https://www.loc.gov/marc/countries/countries_code.html 01/20/2016
-    module Countries
+    module Country
       TERMS = {
         "aa" => "Albania",
         "abc" => "Alberta",
