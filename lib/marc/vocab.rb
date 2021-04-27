@@ -2,6 +2,7 @@
 
 require_relative "vocab/version"
 require_relative "vocab/geographic_area"
+require_relative "vocab/countries"
 
 module Marc
   module Vocab
