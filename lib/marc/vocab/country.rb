@@ -388,8 +388,8 @@ module Marc
         "za" => "Zambia"
       }.freeze
 
-      def self.fetch(key)
-        TERMS.fetch(key)
+      def self.fetch(*args)
+        TERMS.fetch(*args)
       end
     end
   end
